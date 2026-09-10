@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Livro</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Cadastro de Livro</h1>
+    </header>
+
+    <div class="container">
+
+        <section class="cadasrtros">
+
+           
+            <div class="imagemLivro">
+                <img src="./Imagens/e-assim-que-acaba(1).jpg" alt="Livro">
+            </div>
+
+            
+            <div class="informacoesLivro">
+
+                <form action="formu">
+
+                    <div class="insertLivro">
+                        <h2>Nome:</h2>
+                        <input type="search" name="nome" id="nome">
+                    </div>
+
+                    <div class="insertLivro">
+                        <h2>Gênero:</h2>
+                        <input type="search" name="genero" id="genero">
+                    </div>
+
+                    <div class="insertLivro">
+                        <h2>Descrição:</h2>
+                        <textarea id="descricao" name="descricao"
+                            placeholder="Coloque a descrição do livro"></textarea>
+                    </div>
+
+                    <div class="insertLivro">
+                        <h2>Data da devolução:</h2>
+                        <input type="date" name="data_devolucao" id="data_devolucao">
+                    </div>
+
+                    <div class="aviso">
+                        Atenção: se o livro não for devolvido até a data limite,
+                        haverá uma multa de 2R$ por dia de atraso.
+                    </div>
+
+                    <div class="botoes">
+                        <input type="submit" value="Enviar Cadastro">
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>

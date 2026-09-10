@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<header>
+    <h1>Cadastro de Livos</h1>
+</header>
+<body>
+    <div class="container">
+        <section class="cadasrtros">
+                <form action="formu">
+                <div class="nomes">
+                    <label for=""><h2>Nome:</h2></label>
+                    <input type="search" name="local" id="local">
+                </div>
+
+                <div class="nomes">
+                    <h2>Gênero:</h2>
+                    <select id="estado" name="usuario_estado">
+                        <option value="">Selecione um gênero...</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Acao">Ação</option>
+                        <option value="Suspense">Suspense</option>
+                    </select>
+                </div>
+                
+
+        
+            
+                <div class="nomes">
+                    <h2>Adicione a imagem:</h2>
+                        <input type="file" id="imgLivros" name="imgem_Livros">
+
+                
+                            <h2>Descrição:</h2>
+                            <textarea id="descricao" name="descricao" rows="4" placeholder="Coloque a descrição do livro"></textarea>
+                </div>
+
+                <div class="nomes">
+                    <h2>Data da devolução</h2>
+                    <input type="date" id="nascimento" name="data_nascimento">
+                </div>
+
+            
+
+                <input type="submit" value="Enviar Cadastro">
+            
+
+                </form>
+        </section>
+    </div>
+</body>
+</html>

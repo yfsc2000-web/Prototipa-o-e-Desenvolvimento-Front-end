@@ -1,0 +1,188 @@
+header {
+    height: 100px;
+}
+
+
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 600px;
+    background-color: rgb(240, 147, 220);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.cadasrtros {
+    display: flex;
+    width: 70%;
+    height: 500px;
+    background-color: rgb(225, 161, 231);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    gap: 50px;
+}
+
+
+
+
+.cabecalhoInicial {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalhoInicial img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.perfilPagina {
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.imagemPerfil {
+    margin: 10px;
+}
+
+.imagemPerfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+.perfil {
+    width: 300px;
+    margin: 5px;
+}
+
+.perfil h3 {
+    margin: 5px;
+}
+
+.perfil input {
+    width: 300px;
+    height: 25px;
+}
+
+.perfil textarea {
+    width: 300px;
+    height: 70px;
+}
+
+
+
+.cabecalhoPerfil {
+    height: 100px;
+}
+
+.cabecalhoPerfil img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+.imagemLivro {
+    width: 350px;
+    
+}
+
+.imagemLivro img {
+    width: 350px;
+   
+    object-fit: cover;
+}
+
+
+
+.informacoesUsu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.informacoesUsu input {
+    width: 300px;
+    height: 25px;
+}
+
+.cadastroUsuario {
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.insertLivro {
+    margin: 15px;
+}
+
+.insertLivro h2 {
+    margin: 5px;
+}
+
+.insertLivro input {
+    width: 300px;
+    height: 25px;
+}
+
+
+
+#descricao {
+    width: 300px;
+    height: 70px;
+}
+
+
+
+.aviso {
+    width: 300px;
+    margin: 15px;
+}
+
+
+
+.botoes {
+    margin: 15px;
+}
+.sessao {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 50px;
+    padding-top: 150px;
+}
+
+.conta {
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(243, 194, 232);
+    border-radius: 10%;
+}
+
+.imgPrincipal {
+    display: flex;
+    width: 150px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
